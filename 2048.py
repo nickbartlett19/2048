@@ -116,8 +116,9 @@ class Play2048:
         print("\n")
         for i in range(0,4):
             for j in range(0,4):
-                print(board[i][j], end=" ")
-            print("\n")
+                print("a")
+                # print(board[i][j], end=" ")
+            # print("\n")
     
     def PopulateBoard(self, board, value = 2):
         """
